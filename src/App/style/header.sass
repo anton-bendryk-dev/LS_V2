@@ -1,0 +1,20 @@
+header
+    min-height: 120px
+    border-top: 4px solid#8cbf41
+    border-bottom: 4px solid#8cbf41
+.inline-header
+    @include flex-jc
+    @include item-settings(100%, 100%)
+.logo-container
+    @include item-settings(100%, 140px)
+.logo
+    background-image: url(https://anton-bendryk-dev.github.io/logistics-solutions/static/media/logo.cdecdd04.png)
+    min-width: 240px
+    height: 100%
+    @include bg
+.contacts-container-main
+    display: flex
+    justify-content: flex-end
+.contacts-container
+    @include item-settings(80%, 100%)
+    @include border
