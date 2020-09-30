@@ -19,16 +19,19 @@
 @mixin item-settings($width, $height)
     width: $width
     height: $height
-@mixin text-settings($fstyle, $fweight, $fsize, $line-height, $letspace)
+@mixin text-settings($fstyle, $fweight, $fsize, $color)
     font-style: $fstyle
     font-weight: $fweight
     font-size: $fsize
-    line-height: $line-height
-    letter-spacing: $letspace
+    color: $color
     font-family: 'Lora', serif
 @mixin border
-    transform: skew(-24deg)
-    border: 1px solid#8cbf41
+    transform: skew(-23deg)
+@mixin link($color)
+    text-decoration: none
+    text-transform: none
+    outline: none
+    color: $color
 html
     box-sizing: border-box 
 *, *:before, *:after
@@ -41,10 +44,16 @@ body
     min-height: 500px
 .wrapper, header, .inline-header, .col-h50
     @include w100
-.col-md20
+.col-w20
     width: 20%
-.col-md80
+.col-w25
+    width: 25%
+.col-w80
     width: 80%
 .col-h50
     height: 50%
+.col-h30
+    height: 30%
+.col-h70
+    height: 70%
 @import "./header.sass";
