@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <header>
-            <div className="inline-header">
+            <div className="inline-wrapper">
                 <div className="col-w20">
                     <div className="logo-container">
                         <a className="logo" href="/"></a>
@@ -37,23 +37,29 @@ const Header = () => {
                             <div className="navigation-container">
                                 <div className="col-h30"></div>
                                 <div className="col-h70 menu-container">
-                                    <div className="col-w25">
+                                    <div className="col-w19">
                                         <div className="menu-buttons"><a href="#Main">Главная</a></div>
                                     </div>
-                                    <div className="col-w25">
+                                    <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <a href="#Main">Транспорт</a>
-                                            {/* <div className="drop-menu">
-                                                <div className="menu-buttons"><a href="#Geography">География</a></div>
-                                                <div className="menu-buttons"><a href="#Transport">Автомобильные</a></div>
-                                                <div className="menu-buttons"><a href="#GroupageCargo">Сборные</a></div>
-                                                <div className="menu-buttons"><a href="#Main">Страхование</a></div>
-                                                <div className="menu-buttons"><a href="#Main">Таможеные услуги</a></div>
-                                            </div> */}
+                                            <a href="#Main">География</a>
                                         </div>
                                     </div>
-                                    <div className="col-w25"></div>
-                                    <div className="col-w25"></div>
+                                    <div className="col-w19">
+                                        <div className="menu-buttons transport">
+                                            <a href="#Main">Транспорт</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-w19">
+                                        <div className="menu-buttons transport">
+                                            <a href="#Main">Вакансии</a>
+                                        </div>
+                                    </div>
+                                    <div className="col-w19">
+                                        <div className="menu-buttons transport">
+                                            <a href="#Main">Расчет Стоимости</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

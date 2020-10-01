@@ -2,9 +2,7 @@ header
     min-height: 120px
     border-top: 4px solid#8cbf41
     border-bottom: 4px solid#8cbf41
-.inline-header
     @include flex-jc
-    @include item-settings(100%, 100%)
 .logo-container
     @include item-settings(100%, 140px)
 .logo
@@ -17,7 +15,6 @@ header
     justify-content: flex-end
 .contacts-container
     @include item-settings(80%, 100%)
-    margin-right: 8px
 .top-contacts-container
     @include item-settings(100%, 50%)
     @include border
@@ -45,4 +42,23 @@ header
     background-color: #8cbf41
 .menu-container
     display: flex
-    
+    justify-content: space-around
+    padding: 10px 0px 0px 10px
+.menu-buttons
+    @include item-settings(100%, 100%)
+    border: 1px solid white
+.menu-buttons a
+    @include item-settings(100%, 100%)
+    @include flex
+    @include link(white)
+    @include text-settings(normal, 600, 14px, white)
+    transform: skew(25deg)
+.menu-buttons:hover
+    background-color: white
+    -webkit-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+    -moz-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+.menu-buttons a:hover
+    color: #8cbf41
+    font-size: 16px
