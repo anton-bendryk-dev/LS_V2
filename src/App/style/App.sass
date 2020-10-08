@@ -26,7 +26,7 @@
     color: $color
     font-family: 'Lora', serif
 @mixin border
-    transform: skew(-23deg)
+    transform: skew(-25deg)
 @mixin link($color)
     text-decoration: none
     text-transform: none
@@ -50,18 +50,32 @@ body
     @include item-settings(1400px, 100%)
 .wrapper, header, main, .inline-header, .col-h50
     @include w100
+.col-w10
+    width: 10%
 .col-w20
     width: 20%
 .col-w19
     width: 19%
 .col-w80
     width: 80%
+.col-w90
+    width: 90%
+.col-w100
+    width: 100%
 .col-h50
+    display: block
     height: 50%
 .col-h30
     height: 30%
+.col-h35
+    height: 35%
+.col-h40
+    height: 40%
 .col-h70
     height: 70%
+.h100
+    height: 100%
+
 @import "./header.sass";
 @import "./main.sass";
 @import "./slider.sass";
