@@ -1,9 +1,9 @@
 import React from 'react';
-import slide2 from '../images/slide2.jpg';
-import slide01 from '../images/slide01.jpg';
-import slide4 from '../images/slide4x.jpg';
+import slide2 from '../../images/slide2.jpg';
+import slide01 from '../../images/slide01.jpg';
+import slide4 from '../../images/slide4x.jpg';
 
-const Slide = () => {
+const Slider = () => {
     return (
         <div class="inline-wrapper">
             <div class="slide-container">
@@ -22,4 +22,4 @@ const Slide = () => {
 		</div>
     )
 }
-export default Slide
+export default Slider

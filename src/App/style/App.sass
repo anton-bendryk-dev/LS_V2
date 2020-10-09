@@ -47,15 +47,15 @@ body
     align-items: center
 .inline-wrapper
     @include flex-jc
-    @include item-settings(1400px, 100%)
+    width: 1400px
 .wrapper, header, main, .inline-header, .col-h50
     @include w100
 .col-w10
     width: 10%
 .col-w20
     width: 20%
-.col-w19
-    width: 19%
+.col-w50
+    width: 50%
 .col-w80
     width: 80%
 .col-w90
@@ -76,6 +76,6 @@ body
 .h100
     height: 100%
 
-@import "./header.sass";
-@import "./main.sass";
-@import "./slider.sass";
+@import "../header/header.sass";
+@import "../main/main.sass";
+@import "../main/slider/slider.sass";

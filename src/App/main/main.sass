@@ -3,22 +3,25 @@ main
     @include flex-ac
     flex-direction: column
     // background: linear-gradient(to bottom, #ffffff, #e0f7bd)
-.about-company-info-container
+.bg-about-company-info-container
+    background-color: #8cbf41
+    opacity: 0.8
     min-height: 550px
+    @include flex-jc
+.about-company-info-container
     width: 100%
     background-image: url(../images/polfrost_services_truck.jpg)
     background-size: cover
     @include bg
-    @include flex-jc
 .about-us 
-    display: flex
+    @include flex-ac
     justify-content: left
 .about-us p 
     width: 40%
-    margin-top: 100px
     padding-left: 40px
     @include text-settings(normal, 600, 20px, white)
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a
     z-index: 1
 .about-us span 
     font-size: 24px
+// SERVICES
