@@ -25,8 +25,8 @@ const Services = () => {
                                 <p>ADR всех классов</p>
                             </ScrollAnimation>
                         </div>
-                        <div animateIn="animate__fadeInRight" animateOnce="true" className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" className="truck">
+                        <div className="truck-box">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck">
                                 <p>автоперевозки по всей территории</p>
                                 <p>Украины</p>
                             </ScrollAnimation>

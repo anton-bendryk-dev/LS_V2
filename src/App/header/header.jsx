@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Header = () => {
     return (
@@ -33,9 +34,9 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-h30 logo-text">
-                                <p>OGISTICS SOLUTIONS</p>
-                            </div>
+                            <ScrollAnimation animateIn="animate__slideInRight" animatePreScroll="false" offset="0">
+                                <p className="logo-text">OGISTICS SOLUTIONS</p>
+                            </ScrollAnimation>
                         </div>
                     </div>
                     <div className="col-h50">

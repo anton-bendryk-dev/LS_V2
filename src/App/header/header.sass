@@ -17,7 +17,7 @@ header
     background-position: -41px 1px
     text-decoration: none
     outline: none
-.logo-text p 
+.logo-text 
     @include text-settings(normal, 600, 20px, black)
 .top-contacts-container
     @include item-settings(100%, 100%)
@@ -28,7 +28,8 @@ header
     transform: skew(25deg)
 .phones
     @include flex-ac
-    justify-content: space-around
+    justify-content: space-between
+    padding: 0px 20px 0px 20px
 .phones p
     @include text-settings(normal, 600, 14px, white)
 .email
