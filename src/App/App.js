@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header/header'
 import './style/App.sass';
 import Main from './main/main';
+import "animate.css/animate.min.css";
 
 function App() {
   return (
