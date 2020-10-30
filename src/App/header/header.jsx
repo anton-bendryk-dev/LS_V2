@@ -63,7 +63,7 @@ const Header = () => {
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <a href="#Main">Расчет Стоимости</a>
+                                            <a href="#Main">Документация</a>
                                         </div>
                                     </div>
                                 </div>

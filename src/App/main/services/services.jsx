@@ -9,12 +9,11 @@ const Services = () => {
                     <div className="service-bg">
                         <h3>Мы предоставляем такие услуги:</h3>
                     </div>
-                    <div className="road-container"></div>
                 </div>
                 <div className="col-w60">
                     <div className="trucks-container">
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck6">
                                         <p>автоперевозки (экспорт, импорт)</p>
                                         <p>Европа и СНГ</p>
                             </ScrollAnimation>
@@ -26,43 +25,43 @@ const Services = () => {
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck3">
                                 <p>автоперевозки по всей территории</p>
                                 <p>Украины</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck2">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck5">
                                 <p>консолидированные перевозки</p>
                                 <p>по всем направлениям</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
-                                <p>помощь в брокерских услугах</p>
-                                <p></p>
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck6">
+                                <p>помощь в брокерских</p>
+                                <p>услугах</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck2">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
                                 <p>автомобильная перевозка грузов</p>
                                 <p>от 1 тонны до 20 тонн</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck5">
                                 <p>предоставление полного пакета</p>
                                 <p>бухгалтерских документов</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck2">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck4">
                                 <p>перевозки грузов с особым </p>
                                 <p>температурным режимом</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
-                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
+                            <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck7">
                                 <p>перевозка негабаритных</p>
                                 <p>и тяжеловесных грузов</p>
                             </ScrollAnimation>

@@ -1,23 +1,11 @@
 .service-bg
-    min-height: 500px
-    background-color: #85c05b
+    height: 100%
     border: 1px solid #ffffff
     border-top: 0px 
     background: linear-gradient(to top, #ffffff, #85c05b)
+    border-bottom: 3px solid #858585
 .service-bg h3
-    padding-top: 60px 
-    padding-left: 40px
-    @include text-settings(normal, 600, 20px, white)
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a
-    z-index: 1
-.road-container
-    background-image: url(../../images/road.png)
-    background-size: contain
-    background-repeat: no-repeat
-    background-position: bottom
-    width: 100%
-    height: 625px
-    border-bottom: 3px solid #0000007a
+    @include h3(white)
 .trucks-container
     display: flex
     justify-content: flex-end
@@ -35,11 +23,24 @@
     @include flex
     flex-direction: column
 .truck1
-    background-image: url(../../images/services_img.jpg)
+    background-image: url(../../images/ctruck1.jpg)
 .truck2
+    background-image: url(../../images/ctruck2.jpg)
+.truck3
+    background-image: url(../../images/ctruck3.jpg)
+.truck4
+    background-image: url(../../images/ctruck4.jpg)
+.truck5
+    background-image: url(../../images/ctruck5.png)
+.truck6
+    background-image: url(../../images/ctruck6.png)
+.truck7
     background-image: url(../../images/truck23.png)
 .truck p  
     @include text-settings(normal, 400, 14px, black)
     position: relative
     top: -14px
     left: 31px
+.truck p:hover 
+    font-size: 16px
+    cursor: pointer
