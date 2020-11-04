@@ -12,7 +12,6 @@
     background-size: cover
 .job-container h3
     @include h3(black)
-    
     text-align: center
 .job-info
     width: 100%
@@ -26,3 +25,9 @@
     text-align: center
 .job-description
     text-align: left !important
+    margin-bottom: 40px
+.job-info-text a
+    margin-left: 40px
+    @include text-settings(normal, 700, 20px, black)
+    @include link(black)
+    border-bottom: 1px solid black
