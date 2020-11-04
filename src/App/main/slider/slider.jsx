@@ -5,9 +5,9 @@ import slide4 from '../../images/slide4x.jpg';
 
 const Slider = () => {
     return (
-        <div class="inline-wrapper">
-            <div class="slide-container">
-                <div class="fadein">
+        <div className="inline-wrapper">
+            <div className="slide-container">
+                <div className="fadein">
                     <div><img src={slide2} alt="" />
                         <h1 className="slider-text">Logistics Solutions - профи в сфере грузоперевозок</h1>
                     </div>
