@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Job = () => {
     return (
         <div className="inline-wrapper job">
@@ -7,7 +8,7 @@ const Job = () => {
                 <div className="job-info">
                     <div className="job-info-text">
                         <p className="job-description">Logistics Solutions - создает сильную команду единомышленников с единой корпоративной культурой. Постоянное развитие и совершенствование, командный дух, инновационность, инициативность и проактивность – фундаментальные элементы корпоративной культуры компании.</p>
-                        <a href="/">Посмотреть актуальные вакансии</a>
+                        <a href="https://www.work.ua/ru/jobs/by-company/1202656/">Посмотреть актуальные вакансии</a>
                     </div>
                     <div className="job-info-text">
                         <p>РАБОТА В КОМАНДЕ ПРОФЕССИОНАЛОВ</p>

@@ -48,14 +48,16 @@ body
 .wrapper 
     margin: 0
     min-height: 500px
-    display: flex
+    @include flex-ac
     flex-direction: column
-    align-items: center
 .inline-wrapper
     @include flex-jc
     width: 1400px
-.wrapper, header, main, .inline-header, .col-h50
+.wrapper, header, main, .inline-header, .col-h50, .defaultPage
     @include w100
+.defaultPage
+    @include flex-ac
+    flex-direction: column
 .col-w10
     width: 10%
 .col-w19

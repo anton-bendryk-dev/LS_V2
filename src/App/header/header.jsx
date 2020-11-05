@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-
+import {Link} from 'react-router-dom';
 const Header = () => {
     return (
         <header>
@@ -9,7 +9,7 @@ const Header = () => {
                     <div className="col-h50 top-header">
                         <div className="col-w10">
                             <div className="logo-container">
-                                <a className="logo" href="/"></a>
+                                <Link to="/" className="logo"></Link>
                             </div>
                         </div>
                         <div className="col-w90">
@@ -44,26 +44,26 @@ const Header = () => {
                             <div className="navigation-container">
                                 <div className="h100 menu-container">
                                     <div className="col-w19">
-                                        <div className="menu-buttons"><a href="#Main">Главная</a></div>
+                                        <div className="menu-buttons"><Link to="#Main">Главная</Link></div>
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <a href="#Main">География</a>
+                                            <Link to="#Main">География</Link>
                                         </div>
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <a href="#Main">Транспорт</a>
+                                            <Link to="#Main">Транспорт</Link>
                                         </div>
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <a href="#Main">Вакансии</a>
+                                            <a href="https://www.work.ua/ru/jobs/by-company/1202656/">Вакансии</a>
                                         </div>
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <a href="#Main">Документация</a>
+                                            <Link to="#Main">Документация</Link>
                                         </div>
                                     </div>
                                 </div>
