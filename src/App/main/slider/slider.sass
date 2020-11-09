@@ -1,5 +1,5 @@
 .slide-container
-    @include item-settings(100%, 739px)
+    @include wh(100%, 739px)
 @keyframes fade 
     0%   
         opacity: 0
@@ -13,12 +13,10 @@
         opacity: 0
 .fadein 
 	position: relative
-	@include item-settings(100%, 100%)
+	@include wh(100%, 100%)
 .fadein div 
 	position: absolute
-	@include item-settings(100%, 100%)
-	min-height: 711px
-	max-height: 711px
+	@include wh(100%, 711px)
 	left: 0 
 	right: 0
 	opacity: 0
@@ -27,7 +25,6 @@
 	animation-iteration-count: infinite
 .fadein img 
 	position: absolute
-
 .fadein div:nth-child(1)  
     animation-delay: 0s
 .fadein div:nth-child(2) 
@@ -37,7 +34,7 @@
 .fadein .slider-text, .slideText2, .slideText3
 	position: relative
 	top: 100px
-	color:#8cbf41
+	color: $green
 	font-size: 40px
 	font-weight: 700
 	opacity: 0

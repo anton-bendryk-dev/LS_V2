@@ -11,7 +11,7 @@
 .ourAdvantagesH3
     width: 100%
 .ourAdvantages-container h3 
-    @include h3(#8cbf41)
+    @include h3($green)
 .advantageBoy
     margin-top: 20px
     width: 100%
@@ -33,7 +33,7 @@
     width: 80%
     min-height: 124px
     display: flex
-    border: 5px solid #8cbf41
+    border: 5px solid $green
     -webkit-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
     -moz-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
@@ -50,22 +50,19 @@
 .benefit6
     background-image: url(../../images/benefits/benefits6.png)
 .advantageImg-box, 
-    width: 20%
-    height: 100%
+    @include wh(20%, 100%)
     @include bg
     background-position: center
     background-size: inherit
 .advantageText-box
     width: 60%
     @include flex
-    @include text-settings(normal, 600, 16px, #8cbf41)
+    @include text-settings(normal, 600, 16px, $green)
     text-align: center
 .check
-    width: 20%
-    height: 100%
+    @include wh(20%, 100%)
     background-image: url(../../images/art-check2.png)
     @include bg
     background-position: center
     background-size: inherit
-input
     

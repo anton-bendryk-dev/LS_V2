@@ -34,7 +34,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <ScrollAnimation animateIn="animate__slideInRight" animatePreScroll="false" offset="0">
+                            <ScrollAnimation animateIn="animate__slideInRight" animatePreScroll="false" offset="0" animateOnce="true">
                                 <p className="logo-text">OGISTICS SOLUTIONS</p>
                             </ScrollAnimation>
                         </div>
@@ -48,7 +48,7 @@ const Header = () => {
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <Link to="#Main">География</Link>
+                                            <Link to="/Geography">География</Link>
                                         </div>
                                     </div>
                                     <div className="col-w19">

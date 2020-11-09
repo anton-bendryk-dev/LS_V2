@@ -1,7 +1,6 @@
 @import "./reset/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
-@mixin w100
-    width: 100%
+$green: #8cbf41
 @mixin flex-jc
     display: flex
     justify-content: center
@@ -16,7 +15,7 @@
     background-position: center
     background-repeat: no-repeat
     display: inline-block
-@mixin item-settings($width, $height)
+@mixin wh($width, $height)   
     width: $width
     height: $height
 @mixin text-settings($fstyle, $fweight, $fsize, $color)
@@ -37,7 +36,6 @@
     padding-left: 40px
     @include text-settings(normal, 700, 25px, $color)
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a
-    z-index: 1
 html
     box-sizing: border-box 
 *, *:before, *:after
@@ -53,8 +51,12 @@ body
 .inline-wrapper
     @include flex-jc
     width: 1400px
+    z-index: 1
 .wrapper, header, main, .inline-header, .col-h50, .defaultPage
-    @include w100
+    width: 100%
+a 
+    text-decoration: none
+    outline: none
 .defaultPage
     @include flex-ac
     flex-direction: column
@@ -99,3 +101,4 @@ body
 @import "../main/job/job.sass"
 @import "../main/partners/partners.sass"
 @import "../footer/footer.sass"
+@import "../main/geography/geography.sass"

@@ -1,0 +1,185 @@
+.geography
+    width: 100%
+    min-height: 1200px
+    @include flex-ac
+    flex-direction: column
+.geographyH2
+    @include wh(100%, 80px)
+    margin-left: 27px
+.geographyH2 h2
+    width: 100%
+    display: flex
+.geographyH2 p
+    @include text-settings(normal, 600, 20px, black)
+    position: relative
+    left: -17px
+.geographyH2 span 
+    @include text-settings(normal, 700, 80px, $green)
+    transform: skew(-25deg)
+    font-family: 'Lora', serif
+.geographyH2 div
+    display: flex
+    align-items: flex-end
+    padding-bottom: 10px
+.globus
+    background-image: url(../../images/globus.gif)
+    @include wh(100px, 100%)
+    @include bg
+    background-size: contain
+    padding-bottom: 0px !important
+    position: relative
+    top: 10px
+    left: 30px
+.border-bottom
+    width: 100%
+    border-bottom: 4px solid $green
+.geography-container
+    @include flex-ac
+    width: 100%
+.gc-left, .gc-right
+    min-height: 300px
+.gc-left, .gc-right
+    width: 50%
+    min-height: 300px
+.gc-left
+    width: 49%
+    display: flex
+.lines-box
+    width: 30%
+    margin-left: 17px
+.lineToUp
+    height: 210px
+    border-left: 4px solid $green
+.lineToLeft
+    width: 100%
+    border-bottom: 4px solid $green
+.banners-container
+    width: 70%
+    display: flex
+    flex-direction: column
+.banner
+    @include wh(275px, 400px)
+    margin-top: 20px
+    border: 2px solid $green
+    border-radius: 15px
+    cursor: pointer
+.front-banner, .back-banner
+	-webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+	transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+	-o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+	transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+	-webkit-backface-visibility: hidden
+	backface-visibility: hidden
+	text-align: center
+	min-height: 396px
+	border-radius: 13px
+	color: #fff
+	font-size: 1.5rem
+.back-banner
+    background-color: $green
+    visibility: hidden 
+.banner:hover .front-banner,
+.banner:hover .back-banner
+    -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+    transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+    -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1)
+.back-banner
+    width: 100%
+    position: relative
+    top: -396px
+.front-banner:after
+    width: 100%
+    height: 100%
+    display: block
+    backface-visibility: hidden 
+    border-radius: 17px
+.inner
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94)
+    transform: translateY(-50%) translateZ(60px) scale(0.94)
+    position: relative
+    top: 200px
+    outline: 1px solid transparent
+    width: 100%
+    height: 396px
+    display: flex
+    flex-direction: column
+.banner .back-banner
+    -webkit-transform: rotateY(180deg)
+            transform: rotateY(180deg)
+    -webkit-transform-style: preserve-3d
+            transform-style: preserve-3d
+.banner .front-banner
+    -webkit-transform: rotateY(0deg)
+            transform: rotateY(0deg)
+    -webkit-transform-style: preserve-3d
+            transform-style: preserve-3d
+.banner:hover .back-banner
+    -webkit-transform: rotateY(0deg)
+    transform: rotateY(0deg)
+    -webkit-transform-style: preserve-3d
+    transform-style: preserve-3d
+    visibility: visible 
+.banner:hover .front-banner
+    -webkit-transform: rotateY(-180deg)
+    transform: rotateY(-180deg)
+    -webkit-transform-style: preserve-3d
+    transform-style: preserve-3d
+.inner h4 
+    @include text-settings(normal, 600, 20px, $green)
+    position: relative
+    top: -25px
+.inner p
+    @include text-settings(normal, 600, 18px, black)
+    position: relative
+    top: 50px
+.inner span 
+    @include bg 
+    @include wh(40px, 40px)
+    background-size: cover
+    background-image: url(../../images/cursor.png)
+.front-banner
+    @include bg 
+    width: 100%
+    background-size: contain
+.europe
+    background-image: url(../../images/europe.png)
+.asia 
+    background-image: url(../../images/asia.jpg)
+.sng
+    background-image: url(../../images/sng.png)
+.geography-description-text
+    float: left
+    width: 50%
+.geography-description-img
+    float: right
+    width: 50%
+    height: 160px
+    @include bg 
+    background-size: contain
+    background-image: url(../../images/mezhdunarodnyye.jpg)
+.gc-right
+    padding-top: 20px
+    padding-right: 80px 
+    height: 100%
+.gc-right p 
+    @include text-settings(normal, 400, 16px, black)
+.delivery-map
+    margin-top: 20px
+    margin-bottom: 20px
+    width: 100%
+    min-height: 300px
+    @include bg 
+    background-position: left
+    background-size: contain
+    background-image: url(../../images/delivery-map.png)
+.sng-img
+    margin-top: 20px
+    margin-bottom: 10px
+    width: 100%
+    min-height: 200px
+    @include bg 
+    background-size: contain
+    background-image: url(../../images/core_values_bg.jpg)

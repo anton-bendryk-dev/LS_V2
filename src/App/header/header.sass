@@ -1,30 +1,27 @@
 header
-    height: 108px
+    @include wh(100%,108px)
     background-color: white
-    border-top: 4px solid#8cbf41
-    border-bottom: 4px solid#8cbf41
+    border-top: 4px solid $green
+    border-bottom: 4px solid $green
     @include flex-jc
 .top-header
     display: flex
 .logo-container
-    @include item-settings(100%, 60px)
+    @include wh(100%, 60px)
     @include flex-jc
 .logo
     background-image: url(../images/logo2.png)
-    width: 140px
-    height: 100%
+    @include wh(140px, 100%)
     @include bg
     background-position: -41px 1px
-    text-decoration: none
-    outline: none
 .logo-text 
     @include text-settings(normal, 600, 20px, black)
 .top-contacts-container
-    @include item-settings(100%, 100%)
+    @include wh(100%, 100%)
     @include border
-    background-color: #8cbf41
+    background-color: $green
 .contacts
-    @include item-settings(100%, 100%)
+    @include wh(100%, 100%)
     transform: skew(25deg)
 .phones
     @include flex-ac
@@ -40,12 +37,12 @@ header
 .email a:hover
     color: grey
 .navigations
-    @include item-settings(100%, 100%)
+    @include wh(100%, 100%)
     padding: 10px 17px 0px 63px
 .navigation-container
-    @include item-settings(99%, 100%)
+    @include wh(99%, 100%)
     @include border
-    background-color: #8cbf41
+    background-color: $green
     position: relative
     left: 1px
 .menu-container
@@ -53,20 +50,17 @@ header
     justify-content: space-around
     padding: 3px 0px 0px 3px
 .menu-buttons
-    @include item-settings(100%, 100%)
+    @include wh(100%, 100%)
     // border: 1px solid white
 .menu-buttons a
-    @include item-settings(100%, 100%)
+    @include wh(100%, 100%)
     @include flex
     @include link(white)
     @include text-settings(normal, 600, 14px, white)
     transform: skew(25deg)
 .menu-buttons:hover
+    z-index: 1
     background-color: white
-    -webkit-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
-    -moz-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
-
 .menu-buttons a:hover
-    color: #8cbf41
+    color: $green
     font-size: 16px
