@@ -12,35 +12,35 @@ const OurAdvantages = () => {
                         <div className="advantageBoy"></div>
                     </div>
                     <div className="ourAdvantages">
-                        <ScrollAnimation animateIn="animate__fadeInRight" className="advantage">
+                        <ScrollAnimation animateIn="animate__fadeInRight"  animateOnce="true" className="advantage">
                             <div className="advantageImg-box benefit1"></div>
                             <div className="advantageText-box">Получите груз вовремя, в установленные сроки</div>
-                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" className="check"></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__bounceIn"  delay="1000" animateOnce="true" className="check"></ScrollAnimation>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__fadeInRight" className="advantage">
+                        <ScrollAnimation animateIn="animate__fadeInRight"  animateOnce="true" className="advantage">
                             <div className="advantageImg-box benefit2"></div>
                             <div className="advantageText-box">Оперативно отправляем все закрывающие документы</div>
-                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" className="check"></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" animateOnce="true" className="check"></ScrollAnimation>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__fadeInRight" className="advantage">
+                        <ScrollAnimation animateIn="animate__fadeInRight"  animateOnce="true" className="advantage">
                             <div className="advantageImg-box benefit3"></div>
                             <div className="advantageText-box">Вы всегда можете узнать местонахождение Вашего груза</div>
-                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" className="check"></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" animateOnce="true" className="check"></ScrollAnimation>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__fadeInRight" className="advantage">
+                        <ScrollAnimation animateIn="animate__fadeInRight"  animateOnce="true" className="advantage">
                             <div className="advantageImg-box benefit5"></div>
                             <div className="advantageText-box">Каждому клиенту мы выделяем личного менеджера, для связи</div>
-                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" className="check"></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" animateOnce="true" className="check"></ScrollAnimation>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__fadeInRight" className="advantage">
+                        <ScrollAnimation animateIn="animate__fadeInRight"  animateOnce="true" className="advantage">
                             <div className="advantageImg-box benefit4"></div>
                             <div className="advantageText-box">Наши цены одни из самых конкурентных на рынке</div>
-                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" className="check"></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" animateOnce="true" className="check"></ScrollAnimation>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn="animate__fadeInRight" className="advantage">
+                        <ScrollAnimation animateIn="animate__fadeInRight"  animateOnce="true" className="advantage">
                             <div className="advantageImg-box benefit6"></div>
                             <div className="advantageText-box">Гарантии сохранности груза от момента получения до сдачи</div>
-                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" className="check"></ScrollAnimation>
+                            <ScrollAnimation animateIn="animate__bounceIn" delay="1000" animateOnce="true" className="check"></ScrollAnimation>
                         </ScrollAnimation>
                     </div>
                 </div>

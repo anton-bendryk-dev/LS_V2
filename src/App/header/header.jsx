@@ -7,12 +7,12 @@ const Header = () => {
             <div className="inline-wrapper">
                 <div className="inline-header">
                     <div className="col-h50 top-header">
-                        <div className="col-w10">
+                        <div className="col-w8">
                             <div className="logo-container">
                                 <Link to="/" className="logo"></Link>
                             </div>
                         </div>
-                        <div className="col-w90">
+                        <div className="col-w92">
                             <div className="col-h70">
                                 <div className="contacts-container">
                                     <div className="top-contacts-container">
@@ -44,7 +44,7 @@ const Header = () => {
                             <div className="navigation-container">
                                 <div className="h100 menu-container">
                                     <div className="col-w19">
-                                        <div className="menu-buttons"><Link to="#Main">Главная</Link></div>
+                                        <div className="menu-buttons"><Link to="/">Главная</Link></div>
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
@@ -53,7 +53,7 @@ const Header = () => {
                                     </div>
                                     <div className="col-w19">
                                         <div className="menu-buttons transport">
-                                            <Link to="#Main">Транспорт</Link>
+                                            <Link to="/Transport">Транспорт</Link>
                                         </div>
                                     </div>
                                     <div className="col-w19">

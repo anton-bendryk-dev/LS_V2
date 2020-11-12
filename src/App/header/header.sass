@@ -7,13 +7,13 @@ header
 .top-header
     display: flex
 .logo-container
-    @include wh(100%, 60px)
+    min-width: 112px
     @include flex-jc
 .logo
     background-image: url(../images/logo2.png)
-    @include wh(140px, 100%)
+    @include wh(140px, 60px)
     @include bg
-    background-position: -41px 1px
+    background-position: -68px 1px
 .logo-text 
     @include text-settings(normal, 600, 20px, black)
 .top-contacts-container
@@ -38,7 +38,7 @@ header
     color: grey
 .navigations
     @include wh(100%, 100%)
-    padding: 10px 17px 0px 63px
+    padding: 10px 17px 0px 36px
 .navigation-container
     @include wh(99%, 100%)
     @include border

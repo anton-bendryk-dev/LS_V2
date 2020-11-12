@@ -33,7 +33,7 @@ $green: #8cbf41
     color: $color
 @mixin h3($color)
     padding-top: 40px 
-    padding-left: 40px
+    padding-left: 30px
     @include text-settings(normal, 700, 25px, $color)
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a
 html
@@ -60,8 +60,9 @@ a
 .defaultPage
     @include flex-ac
     flex-direction: column
-.col-w10
-    width: 10%
+.col-w8
+    width: 8%
+    min-width: 113px
 .col-w19
     width: 19%
 .col-w20
@@ -74,8 +75,8 @@ a
     width: 60%
 .col-w80
     width: 80%
-.col-w90
-    width: 90%
+.col-w92
+    width: 92%
 .col-w100
     width: 100%
 .col-h50
@@ -91,7 +92,7 @@ a
     height: 70%
 .h100
     height: 100%
-
+@import "../arrowTop/arrowTop.sass";
 @import "../header/header.sass";
 @import "../main/main.sass";
 @import "../main/slider/slider.sass";
@@ -102,3 +103,7 @@ a
 @import "../main/partners/partners.sass"
 @import "../footer/footer.sass"
 @import "../main/geography/geography.sass"
+@import "../main/transport/transport.sass"
+@media screen and (max-width: 1399px)
+    .inline-wrapper
+        width: 100%
