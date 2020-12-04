@@ -1,5 +1,6 @@
 {
-    "name": "my-app",
+    "name": "LogisticSolutions",
+    "homepage": "https://anton-bendryk-dev.github.io/LS_V2/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
