@@ -34,7 +34,7 @@
     width: 100%
     border-bottom: 4px solid $green
 .geography-container
-    @include flex-ac
+    display: flex
     width: 100%
 .gc-left, .gc-right
     min-height: 300px
@@ -183,3 +183,50 @@
     @include bg 
     background-size: contain
     background-image: url(../../images/core_values_bg.jpg)
+@media screen and (max-width: 876px)
+    .geography-container
+        flex-direction: column
+        justify-content: space-around
+    .gc-left, .gc-right
+        width: 100%
+    .gc-left
+        clear: both
+        min-height: 1260px
+    .gc-right
+        padding-left: 20px
+@media screen and (max-width: 680px)
+    .gc-right 
+        padding-right: 10px
+    .delivery-map
+        background-size: contain
+        background-position: center
+        margin: 0px
+        min-height: 200px
+    .sng-img 
+        margin: 0px
+        min-height: 200px
+@media screen and (max-width: 525px)
+    .geographyH2 p
+        font-size: 18px
+    .globus
+        left: 15px
+@media screen and (max-width: 430px)
+    .geographyH2 p
+        order: 2
+        font-size: 16px
+    .geographyH2 div
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        justify-content: space-between
+    .globus
+        top: 0px
+        width: 80% !important
+        order: 1
+        background-position: right
+    .lines-box
+        width: 10% 
+@media screen and (max-width: 332px)
+    .lines-box
+        margin-left: 10px

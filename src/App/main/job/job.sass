@@ -31,3 +31,29 @@
     @include text-settings(normal, 700, 20px, black)
     @include link(black)
     border-bottom: 1px solid black
+@media screen and (max-width: 900px)
+    .job-description
+        margin-bottom: 20px
+@media screen and (max-width: 768px)
+    .job-container
+        background-size: cover
+        background-position: top
+        min-height: 500px
+        display: flex
+        flex-direction: column
+    .job-container h3
+        padding-top: 10px
+    .job-info
+        flex-direction: column
+    .job-description
+        margin-bottom: 20px
+    .job-info-text
+        width: 100%
+    .job-info-text p
+        text-align: left
+        text-shadow: -1px -1px white, 1px 0px white
+@media screen and (max-width: 375px)
+    .job-info-text p
+        font-size: 14px
+    .job-info-text a
+        font-size: 16px

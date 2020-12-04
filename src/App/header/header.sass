@@ -14,6 +14,8 @@ header
     @include wh(140px, 60px)
     @include bg
     background-position: -68px 1px
+.logo-text-box
+    height: 30%
 .logo-text 
     @include text-settings(normal, 600, 20px, black)
 .top-contacts-container
@@ -64,3 +66,39 @@ header
 .menu-buttons a:hover
     color: $green
     font-size: 16px
+@media screen and (max-width: 767px)
+    .logo-text 
+        font-size: 16px
+    .phones p
+        font-size: 12px
+    .phones
+        padding: 0px 5px 0px 5px
+@media screen and (max-width: 635px)
+    .menu-buttons a 
+        font-size: 12px
+    .menu-container
+        padding: 0px
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
+    .col-w19
+        width: 100%
+    .menu-buttons a:hover
+        font-size: 12px
+@media screen and (max-width: 415px)
+    .phones p
+        font-size: 10px
+@media screen and (max-width: 374px)
+    .contacts 
+        display: flex
+        align-items: center
+    .phones, .email
+        flex-direction: column
+    .email a
+        font-size: 12px
+    .email a:first-child
+        order: 1
+    .logo-text 
+        position: relative
+        top: 5px
+    .contacts-container
+        width: 100%

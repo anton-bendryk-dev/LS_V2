@@ -9,7 +9,7 @@ const HowItWork = () => {
                     <div className="HowItWork-box">
                         <h3>КАК ЭТО РАБОТАЕТ ?</h3>
                     </div>
-                    <div className="HowItWork-box">
+                    <div className="HowItWork-box HowItWork-box2">
                         <ul>Для начала нашего сотрудничества, необходимо выполнить следующие шаги:</ul>
                         <ScrollAnimation animateIn="animate__rotateInUpLeft" animateOnce="true" duration="1" delay="1000">
                         <li>Оставить заявку на доставку груза;</li>
@@ -33,4 +33,4 @@ const HowItWork = () => {
     )
 }
 
-export default HowItWork
+export default HowItWork 

@@ -34,7 +34,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <ScrollAnimation animateIn="animate__slideInRight" animatePreScroll="false" offset="0" animateOnce="true">
+                            <ScrollAnimation className="logo-text-box" animateIn="animate__slideInRight" animatePreScroll="false" offset="0" animateOnce="true">
                                 <p className="logo-text">OGISTICS SOLUTIONS</p>
                             </ScrollAnimation>
                         </div>

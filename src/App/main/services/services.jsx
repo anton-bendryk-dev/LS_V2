@@ -26,8 +26,8 @@ const Services = () => {
                         </div>
                         <div className="truck-box">
                             <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck3">
-                                <p>автоперевозки по всей территории</p>
-                                <p>Украины</p>
+                                <p>автоперевозки по всей</p>
+                                <p>территории Украины</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">
@@ -44,8 +44,8 @@ const Services = () => {
                         </div>
                         <div className="truck-box">
                             <ScrollAnimation animateIn="animate__fadeInRight" animateOnce="true" className="truck truck1">
-                                <p>автомобильная перевозка грузов</p>
-                                <p>от 1 тонны до 20 тонн</p>
+                                <p>автомобильная перевозка</p>
+                                <p>грузов от 1 тонны до 20 тонн</p>
                             </ScrollAnimation>
                         </div>
                         <div className="truck-box">

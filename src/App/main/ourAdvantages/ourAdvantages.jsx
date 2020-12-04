@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const OurAdvantages = () => {
     return(
         <section className="ourAdvantages-container">
-                <div className="inline-wrapper">
+                <div className="inline-wrapper inline-ourAdvantages-container" >
                     <div className="inline-ourAdvantages">
                         <ScrollAnimation animateIn="animate__fadeInLeft" animateOnce="true" className="ourAdvantagesH3">
                             <h3>Наши преимущества :</h3>

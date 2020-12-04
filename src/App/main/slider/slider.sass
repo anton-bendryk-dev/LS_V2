@@ -1,5 +1,6 @@
 .slide-container
-    @include wh(100%, 739px)
+    width: 100%
+    min-height: 739px
 @keyframes fade 
     0%   
         opacity: 0
@@ -67,3 +68,42 @@
     width: 80%
     position: relative
     left: 30px
+@media screen and (max-width: 1440px)
+    .fadein div, .fadein img
+        width: 100%
+@media screen and (max-width: 1400px)
+    .slide-container
+        min-height: 600px
+@media screen and (max-width: 1130px)
+    .fadein .slider-text, .slideText2, .slideText3
+        font-size: 30px
+        top: 25px
+        color: $green
+        text-shadow: 1px 1px #2c3026
+    .fadein div, .fadein img
+        height: 550px
+        width: 100%
+    .slide-container
+        min-height: 550px
+@media screen and (max-width: 768px)
+    .fadein .slider-text, .slideText2, .slideText3
+        font-size: 25px
+    .fadein div, .fadein img
+        height: 400px
+    .slide-container
+        min-height: 400px
+@media screen and (max-width: 625px)
+    .fadein .slider-text, .slideText2, .slideText3
+        font-size: 16px
+        top: 20px
+    .fadein div, .fadein img
+        height: 250px
+    .slide-container
+        min-height: 250px
+@media screen and (max-width: 400px)
+    .fadein div, .fadein img
+        height: 200px
+    .slide-container
+        min-height: 200px
+
+
